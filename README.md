@@ -5,7 +5,10 @@
 ## &#10146; Week 02 &#10004;
 ```Created a Github repository, started the HTML file for the assignment and created this README file.```
 ***
-## &#10146; Week 03 &#10002;
+## &#10146; Week 03 &#10004;
+```Implementing CSS to the previously created HTML file in order to resemble the Figma prototype.```
+***
+## &#10146; Week 04 &#10002;
 ```Loading tasks...```
 ***
 ### Developer
