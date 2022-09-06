@@ -281,6 +281,48 @@ main {
 
 /*BLOCK 5 - STORY */
 
+.block-5 {
+    border-bottom: 1px solid #373867;
+    padding-bottom: 350px;
+}
+
+.block-5 h2 {
+    padding-left: 40px;
+    padding-bottom: 14px;
+    padding-top: 30px;
+}
+
+.block-5 h3 {
+    font-size: 20px;
+    color: #373867;
+    padding-left: 40px;
+    padding-bottom: 16px;
+}
+
+.block-5 p {
+    width: 700px;
+    font-size: 20px;
+    color: #373867;
+    padding-left: 40px;
+    padding-bottom: 34px;
+    word-wrap: break-word;
+}
+
+.block-5 img {
+    width: 400px;
+    padding-left: 40px;
+}
+.block-5-text {
+    float: left;
+}
+
+.block-5-img {
+    float: right;
+}
+
+/*BLOCK 6 - Many Links*/
+
+
 /*SIDEBAR MENU*/
 .sidebar {
     position: fixed;
