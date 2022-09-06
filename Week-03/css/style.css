@@ -89,7 +89,7 @@ main {
 .block-1 {
     overflow: auto;
     border-bottom: 1px solid #373867;
-    padding: 60px 40px;
+    padding: 100px 40px;
 }
 
 .b1-text {
@@ -312,6 +312,7 @@ main {
     width: 400px;
     padding-left: 40px;
 }
+
 .block-5-text {
     float: left;
 }
@@ -322,6 +323,41 @@ main {
 
 /*BLOCK 6 - Many Links*/
 
+.block-6 {
+    border-bottom: 1px solid #373867;
+    padding-bottom: 200px;
+    width: auto;
+}
+
+.block-6 h3 {
+    padding-bottom: 14px;
+    padding-top: 30px;
+}
+
+.block-6 a {
+    padding-left: 20px;
+}
+
+.block-6 div {
+    float: left;
+    margin-left: 230px;
+}
+
+.list-1 {
+    width: 100px;
+}
+
+.list-2 {
+    width: 100px;
+}
+
+.list-3 {
+    width: 100px;
+}
+
+/*FOOTER*/
+
+/*Reserved space for footer css style code*/
 
 /*SIDEBAR MENU*/
 .sidebar {
