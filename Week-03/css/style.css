@@ -1,3 +1,4 @@
+/*GENERAL SETTINGS*/
 *{
     font-family: "Roboto", sans-serif;
 }
@@ -43,6 +44,7 @@ main {
     width: 1212px;
 }
 
+/*BLOCK 1 - TRACKGENIX BY RADIUM ROCKET*/
 .block-1 {
     overflow: auto;
     border-bottom: 1px solid #373867;
@@ -91,6 +93,53 @@ main {
     transform: translate(-20%, -40%);
 }
 
+/*BLOCK 2 - SERVICES*/
+.block-2 {
+    border-bottom: 1px solid #373867;
+    padding-bottom: 40px;
+}
+
+.block-2 h2 {
+    padding: 40px;
+}
+
+.block-2 h3 {
+    padding-bottom: 10px;
+}
+
+.block-2 img {
+    width: auto;
+    padding-right: 10px;
+}
+
+.block-2 p {
+    padding-left: 15px;
+}
+
+.block-2-top-row {
+    padding-left: 40px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.block-2-top-row li {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.block-2-bottom-row {
+    padding-left: 40px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.block-2-bottom-row li {
+    display: flex;
+    align-items: center;
+}
+
+/*TOP BAR - TRACKGENIX BY RADIUMROCKET*/
 .logo {
     width: auto;
 }
@@ -131,8 +180,7 @@ main {
     top: 20px;
 }
 
-
-
+/*SIDEBAR MENU*/
 .sidebar {
     position: fixed;
     top: 90px;
@@ -193,12 +241,4 @@ main {
 
 #address-text {
     font-size: 12px;
-}
-
-.footer {
-    position: relative;
-    top: 116.21px;
-    left: 278px;
-    right: 22px;
-    width: 1212px;
 }
