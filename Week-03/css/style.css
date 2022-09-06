@@ -44,6 +44,47 @@ main {
     width: 1212px;
 }
 
+/*TOP BAR - TRACKGENIX BY RADIUMROCKET*/
+.logo {
+    width: auto;
+}
+
+.topbar {
+    position: fixed;
+    width: 100%;
+    max-height: 90px;
+    min-height: 90px;
+    background-color: #373867;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    z-index: 1;
+}
+
+.logo {
+    width: auto;
+    top: 20px;
+}
+
+.topbar-nav {
+    padding-right: 2px;
+    padding-top: 1.5px;
+}
+
+.topbar-nav>li {
+    float: right;
+    list-style: none;
+    margin: 1px 20px 1px 1px;
+    max-width: 20px;
+    min-width: 30px;
+}
+
+.topbar-nav li img {
+    border-radius: 50px;
+    max-width: 50px;
+    position: absolute;
+    top: 20px;
+}
+
 /*BLOCK 1 - TRACKGENIX BY RADIUM ROCKET*/
 .block-1 {
     overflow: auto;
@@ -88,7 +129,7 @@ main {
     border-radius: 5px;
     margin: 0px;
     position: absolute;
-    top: 18%;
+    top: 15%;
     left: 40%;
     transform: translate(-20%, -40%);
 }
@@ -198,46 +239,47 @@ main {
     transform: translate(-20%, -40%);
 }
 
-/*TOP BAR - TRACKGENIX BY RADIUMROCKET*/
-.logo {
-    width: auto;
+/*BLOCK 4 - FORM*/
+
+.block-4 {
+    border-bottom: 1px solid #373867;
+    padding-bottom: 300px;
 }
 
-.topbar {
-    position: fixed;
-    width: 100%;
-    max-height: 90px;
-    min-height: 90px;
-    background-color: #373867;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    z-index: 1;
+.block-4 h2 {
+    padding: 40px;
 }
 
-.logo {
-    width: auto;
-    top: 20px;
+.block-4 h3 {
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 5px;
 }
 
-.topbar-nav {
-    padding-right: 2px;
-    padding-top: 1.5px;
+.block-4 label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #373867;
 }
 
-.topbar-nav>li {
+.block-4 div {
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.form-leftside {
+    width: 45%;
+    float: left;
+}
+
+.form-rightside {
+    width: 45%;
     float: right;
-    list-style: none;
-    margin: 1px 20px 1px 1px;
-    max-width: 20px;
-    min-width: 30px;
 }
 
-.topbar-nav li img {
-    border-radius: 50px;
-    max-width: 50px;
-    position: absolute;
-    top: 20px;
-}
+/*BLOCK 5 - STORY */
 
 /*SIDEBAR MENU*/
 .sidebar {
