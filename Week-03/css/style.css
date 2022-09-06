@@ -88,7 +88,7 @@ main {
     border-radius: 5px;
     margin: 0px;
     position: absolute;
-    top: 20%;
+    top: 18%;
     left: 40%;
     transform: translate(-20%, -40%);
 }
@@ -137,6 +137,65 @@ main {
 .block-2-bottom-row li {
     display: flex;
     align-items: center;
+}
+
+/*BLOCK 3 - WHY TRACKGENIX? */
+.block-3 {
+    border-bottom: 1px solid #373867;
+    padding-bottom: 450px;
+}
+
+.block-3 h2 {
+    padding: 40px;
+}
+
+.block-3 h3 {
+    padding-left:40px;
+}
+
+.block-3 p {
+    padding-left: 40px;
+    width: 400px;
+    word-wrap: break-word;
+}
+
+.block-3 img {
+    padding-left: 40px;
+    width: 400px;
+}
+
+.block-3 div {
+    padding-top: 20px;
+}
+
+.article-1 {
+    float: left;
+}
+
+.article-2 {
+    float: right;
+}
+
+#more-enhance {
+    border: 3px solid #373867;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 1px;
+    position: relative;
+    top: 20%;
+    left: 40%;
+    transform: translate(-20%, -40%);
+}
+
+#more-trace {
+    border: 3px solid #373867;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 1px;
+    position: relative;
+    top: 20%;
+    left: 40%;
+    transform: translate(-20%, -40%);
 }
 
 /*TOP BAR - TRACKGENIX BY RADIUMROCKET*/
