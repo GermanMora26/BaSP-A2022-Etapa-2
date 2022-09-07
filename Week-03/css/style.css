@@ -357,7 +357,24 @@ main {
 
 /*FOOTER*/
 
-/*Reserved space for footer css style code*/
+.end-of-page {
+    padding-bottom: 0px;
+    width: auto;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 /*SIDEBAR MENU*/
 .sidebar {
